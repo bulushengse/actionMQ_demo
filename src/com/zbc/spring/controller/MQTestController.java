@@ -9,7 +9,6 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.zbc.spring.activemq.MQReceiver;
 import com.zbc.spring.activemq.MQSender;
-import com.zbc.spring.activemqListener.MQReceiverListenerQueue;
 
 @Controller
 @RequestMapping(value="/mqTest")

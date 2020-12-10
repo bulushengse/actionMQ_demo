@@ -8,14 +8,12 @@ import javax.jms.JMSException;
 import javax.jms.MessageProducer;
 import javax.jms.Session;
 import javax.jms.TextMessage;
-import javax.jms.Topic;
 
 import org.apache.activemq.ActiveMQConnection;
 import org.apache.activemq.ActiveMQConnectionFactory;
 
 //生产者
 public class SenderDemo {
-	
 	
 	/**
 	 * 1.下载ActiveMQ 去官方网站下载：http://activemq.apache.org/
